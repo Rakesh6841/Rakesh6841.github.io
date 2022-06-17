@@ -1,0 +1,95 @@
+@media (max-width: 576px){
+    element.style {
+        height: 0px;
+    }
+    .banner img{
+          border-radius: 100%;
+    }
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        flex-direction: column-reverse;
+    }
+    
+    .main-title {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        color: #f9f1e9;
+        text-align: center;
+        top: 40% !important;
+        left: 50%;
+        width: 100%;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    .banners {
+        width: 100%;
+        background-image: url(../images/png/bgphoto.png);
+        height: 740px !important;
+        box-shadow: -1px 10px 36px -3px rgb(37 37 37 / 75%);
+        pad
+    }
+    .scrolldown-container .scrolldown-btn svg 
+    {
+        display: none;
+    }
+    h6{
+        display: none;
+    }
+    .pt-5 {
+        padding-top: 0rem;
+         }
+
+    .p {
+        font-size: 0rem;
+        color: #deebf6;
+    }
+    .owl-drag{
+        display: none;
+    }
+    .education h1 {
+        color: #000000;
+        font-size: 2.5rem;
+    }
+    .col-md-4{
+        display: none;
+
+    }
+    .footer {
+        width: 100%;
+        padding: 0 ; 
+        margin-top: -42px;
+        /* border-radius: 25px 25px 0 0; */
+        /* animation: gradient 3s ease-in-out infinite; */
+        background-color: #333;
+    }
+    ul li a{
+        font-size: 2rem;
+        color: bisque;
+    }
+    p{
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5;
+        text-align: center;
+    }
+    .edu{
+        display: none;
+    }
+    .myprojects {
+        background: url(../images/png/bgphoto2.jpg);
+        width: 100%;
+        padding: 17px 0 42px 0;
+    }
+    
+}
